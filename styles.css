@@ -1,0 +1,9 @@
+.picture_container{
+    display: grid;
+    place-items:center;
+    float : left;
+}
+
+.picture_container > img{
+    width:calc(40%)
+}

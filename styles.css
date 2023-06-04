@@ -7,3 +7,12 @@
 .picture_container > img{
     width:calc(40%)
 }
+
+.page_container{
+    display : flex;
+    flex-direction: row;
+}
+
+.picture_container{
+    background-image: url('./assets/possible_covers/cover_1.jpg');
+}

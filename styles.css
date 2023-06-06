@@ -1,11 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 .picture_container{
     display: grid;
     place-items:center;
     float : left;
 }
 
-.picture_container > img{
-    width:calc(40%)
+.picture_container{
+    width:40vw;
+    height:100vh;
+
+}
+
+.comp_name{
+    display:flex;
+    flex-flow: row wrap;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+.logo_container{
+    position: relative;
+    bottom: 20%;
+    height:auto;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
 }
 
 .page_container{
@@ -15,4 +45,6 @@
 
 .picture_container{
     background-image: url('./assets/possible_covers/cover_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
